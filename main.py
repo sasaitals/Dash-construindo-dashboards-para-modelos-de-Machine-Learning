@@ -3,6 +3,7 @@ from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import paginas
 from app import app
+server = app.server
 
 
 navegacao = navbar = dbc.NavbarSimple(
@@ -39,4 +40,5 @@ def mostrar_pagina(pathname):
 
 
 
-app.run(debug=False)
+if __name__ == "__main__":
+    app.run(debug=False)
