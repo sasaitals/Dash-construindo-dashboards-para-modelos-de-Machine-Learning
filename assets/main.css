@@ -1,0 +1,176 @@
+html, body {
+    background-color: #edf2fa;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.identificação {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #194a7a;
+    background-color: #ccdbfd;
+}
+
+.aviso-projeto {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #b7b7b7;
+}   
+
+.legenda-graficos {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #194a7a;
+}  
+
+.area-botao {
+    display: flex;
+    justify-content: center;   /* troque por flex-start (esquerda) ou flex-end (direita) */
+    margin-top: 50px;
+}
+
+.area-botao .btn {
+    min-width: 200px;
+    padding: 10px 30px;
+    color: #194a7a;
+    background-color: #ccdbfd;
+    border-color: #edf2fa;
+    transition-duration: 0.2s;
+}
+
+.area-botao .btn:hover{
+    background-color: #598bff;
+    color: white;
+}
+
+.resultado {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color:black; 
+}
+
+.titulo {
+    background-image: url("fundo-titulo.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    padding: 40px 20px;           
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo h1 {
+    color: #194a7a;
+    margin: 0;
+    font-weight: bold;
+}
+
+.form {
+    color:#194a7a;
+}
+
+.footer {
+    background-color: #194a7a;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.link-rodape {
+    transition-duration: 0.2s;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.link-rodape:hover {
+    color: #b7b7b7;
+}
+
+#previsao {
+    min-height: 75px;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.navegacao {
+    background-color: #194a7a !important;   
+    padding: 12px 24px;
+    transition-duration: 0.2s;
+
+}
+
+.navegacao .nav-link {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.navegacao .nav-link:hover {
+    color: #ccdbfd;
+
+}
+
+.navegacao .navbar-brand {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.navegacao .navbar-brand:hover {
+    color: #ccdbfd;
+
+}
+
+.navegacao .nav-link.active {
+    color: #ccdbfd !important;
+    font-weight: bold;
+}
+
+.inicio {
+    color: #194a7a;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h4, h2{
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 100%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;         
+    border: 10px solid #ccdbfd;
+}
+
+.texto-sobre {
+    text-align: left;          
+}
+
+@media (max-width: 992px) {
+    .texto-sobre {
+        text-align: center;
+    }
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+}

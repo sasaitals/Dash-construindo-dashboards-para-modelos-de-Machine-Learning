@@ -1,0 +1,9 @@
+dash==4.4.1
+dash-bootstrap-components==2.0.4
+plotly==7.1.0
+pandas==3.0.6
+numpy
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib
+gunicorn
